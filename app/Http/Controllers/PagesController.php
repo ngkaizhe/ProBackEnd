@@ -31,4 +31,5 @@ class PagesController extends Controller
     	# code...
     	return view('about');
     }
+
 }
