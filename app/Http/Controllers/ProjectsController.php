@@ -19,4 +19,22 @@ class ProjectsController extends Controller
         ]);
 
     }
+
+    public function create()
+    {
+        return view('project.create');
+    }
+
+    public function store(Request $request)
+    {
+        $project = new Project();
+
+        $project->project_name = $request->project_name;
+
+        $project->description = $request->description;
+
+        $project->save();
+
+        return redirect('/projects');
+    }
 }
