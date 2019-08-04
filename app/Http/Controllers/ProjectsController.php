@@ -35,17 +35,21 @@ class ProjectsController extends Controller
 
         $project->save();
 
-        return redirect('/projects');
+        return redirect()->route('projects.index');
     }
 
     public function update(Request $request, Project $project)
     {
+        $project->update($request->all());
 
+        return redirect()->route('projects.index');
     }
 
     public function destroy(Project $project)
     {
+        $project->delete();
 
+        return redirect()->route('projects.index');
     }
 
     public function show(Project $project)
@@ -55,6 +59,8 @@ class ProjectsController extends Controller
 
     public function edit(Project $project)
     {
-
+        return view('project.edit', [
+            'project' => $project,
+        ]);
     }
 }
