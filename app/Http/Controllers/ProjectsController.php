@@ -37,4 +37,24 @@ class ProjectsController extends Controller
 
         return redirect('/projects');
     }
+
+    public function update(Request $request, Project $project)
+    {
+
+    }
+
+    public function destroy(Project $project)
+    {
+
+    }
+
+    public function show(Project $project)
+    {
+
+    }
+
+    public function edit(Project $project)
+    {
+
+    }
 }
