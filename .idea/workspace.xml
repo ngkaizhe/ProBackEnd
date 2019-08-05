@@ -5,6 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -144,7 +147,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="58d3bf1a-9343-47de-afe2-073dbac64d1b" name="Default Changelist" comment="" />
+      <changelist id="14f46a5e-b5ec-4623-96a8-85a1422ba7b0" name="Default Changelist" comment="" />
       <created>1564582860347</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -155,6 +158,8 @@
       <workItem from="1564817416760" duration="1421000" />
       <workItem from="1564840717456" duration="2679000" />
       <workItem from="1564877194391" duration="1207000" />
+      <workItem from="1564973938429" duration="4584000" />
+      <workItem from="1565005176843" duration="1552000" />
     </task>
     <servers />
   </component>

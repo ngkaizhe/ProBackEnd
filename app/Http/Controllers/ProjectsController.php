@@ -27,13 +27,7 @@ class ProjectsController extends Controller
 
     public function store(Request $request)
     {
-        $project = new Project();
-
-        $project->project_name = $request->project_name;
-
-        $project->description = $request->description;
-
-        $project->save();
+        Project::create($request->all());
 
         return redirect()->route('projects.index');
     }
@@ -54,7 +48,9 @@ class ProjectsController extends Controller
 
     public function show(Project $project)
     {
-
+        return view('project.show', [
+            'project' => $project,
+        ]);
     }
 
     public function edit(Project $project)

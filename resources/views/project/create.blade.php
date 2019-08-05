@@ -1,17 +1,11 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Create Page</title>
-</head>
-<body>
+@extends('project.layout')
 
-    <form method="POST" action="/projects">
+@section('title', 'Create page')
+
+@section('body')
+
+    <form method="POST" action="{{route('projects.store')}}">
         {{ csrf_field() }}
-
         Project name:<br>
         <input type="text" placeholder="Project name" name="project_name"><br>
         Description:<br>
@@ -20,5 +14,4 @@
         <button type="submit">create</button>
     </form>
 
-</body>
-</html>
+@endsection()

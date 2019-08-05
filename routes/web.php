@@ -20,13 +20,16 @@ Route::get('/about', 'PagesController@about');
 
 
 // project
-Route::post('/projects', 'ProjectsController@store')->name('projects.store');
-Route::get('/projects', 'ProjectsController@index')->name('projects.index');
-Route::get('/projects/create', 'ProjectsController@create')->name('projects.create');
-Route::patch('/projects/{project}', 'ProjectsController@update')->name('projects.update')->where('project', '\d');
-Route::get('/projects/{project}', 'ProjectsController@show')->name('projects.show')->where('project', '\d');
-Route::delete('/projects/{project}', 'ProjectsController@destroy')->name('projects.destroy')->where('project', '\d');
-Route::get('/projects/{project}/edit', 'ProjectsController@edit')->name('projects.edit')->where('project', '\d');
+Route::resource('projects', 'ProjectsController');
+
+// Equivalent code
+//Route::post('/projects', 'ProjectsController@store')->name('projects.store');
+//Route::get('/projects', 'ProjectsController@index')->name('projects.index');
+//Route::get('/projects/create', 'ProjectsController@create')->name('projects.create');
+//Route::patch('/projects/{project}', 'ProjectsController@update')->name('projects.update')->where('project', '\d');
+//Route::get('/projects/{project}', 'ProjectsController@show')->name('projects.show')->where('project', '\d');
+//Route::delete('/projects/{project}', 'ProjectsController@destroy')->name('projects.destroy')->where('project', '\d');
+//Route::get('/projects/{project}/edit', 'ProjectsController@edit')->name('projects.edit')->where('project', '\d');
 
 
 

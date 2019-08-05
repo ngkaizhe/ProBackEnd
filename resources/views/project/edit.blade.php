@@ -1,13 +1,9 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Edit</title>
-</head>
-    <body>
+@extends('project.layout')
+
+@section('title', 'Edit')
+
+@section('body')
+
     <h1>Edit pages</h1>
     <form method="POST" action="{{route('projects.update', $project->id)}}">
         @method('PATCH')
@@ -26,6 +22,4 @@
 
         <button type="submit">Delete</button><br>
     </form>
-
-</body>
-</html>
+@endsection()
