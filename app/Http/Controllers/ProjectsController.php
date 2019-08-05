@@ -27,14 +27,22 @@ class ProjectsController extends Controller
 
     public function store(Request $request)
     {
-        Project::create($request->all());
+        $validated_request = $request->validate([
+            'project_name'=> 'required',
+        ]);
+
+        Project::create($validated_request);
 
         return redirect()->route('projects.index');
     }
 
     public function update(Request $request, Project $project)
     {
-        $project->update($request->all());
+        $validated_request = $request->validate([
+            'project_name'=> 'required',
+        ]);
+
+        $project->update($validated_request);
 
         return redirect()->route('projects.index');
     }

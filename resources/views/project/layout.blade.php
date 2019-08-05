@@ -10,5 +10,14 @@
 <body>
     @yield('body')
 
+    @section('error')
+        @if($errors->any())
+            <ul>
+                @foreach($errors->all() as $error)
+                    {{$error}}
+                @endforeach
+            </ul>
+        @endif
+    @show
 </body>
 </html>

@@ -7,8 +7,7 @@
       <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/project/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/project/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/layout.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,7 +158,7 @@
       <workItem from="1564840717456" duration="2679000" />
       <workItem from="1564877194391" duration="1207000" />
       <workItem from="1564973938429" duration="4584000" />
-      <workItem from="1565005176843" duration="1552000" />
+      <workItem from="1565005176843" duration="3922000" />
     </task>
     <servers />
   </component>

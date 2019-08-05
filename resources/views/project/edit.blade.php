@@ -10,9 +10,9 @@
         {{ csrf_field() }}
 
         Project name:<br>
-        <input type="text" name="project_name" value="{{$project->project_name}}"><br>
+        <input type="text" name="project_name" value="{{old('project_name', $project->project_name)}}"><br>
         Description:<br>
-        <textarea name="description" id="" cols="30" rows="10">{{$project->description}}</textarea><br>
+        <textarea name="description" id="" cols="30" rows="10">{{old('description', $project->description)}}</textarea><br>
 
         <button type="submit">Update</button><br>
     </form>
@@ -23,3 +23,5 @@
         <button type="submit">Delete</button><br>
     </form>
 @endsection()
+
+@section('error')
