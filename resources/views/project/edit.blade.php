@@ -7,7 +7,7 @@
     <h1>Edit pages</h1>
     <form method="POST" action="{{route('projects.update', $project->id)}}">
         @method('PATCH')
-        {{ csrf_field() }}
+        @csrf
 
         Project name:<br>
         <input type="text" name="project_name" value="{{old('project_name', $project->project_name)}}"><br>

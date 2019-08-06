@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14f46a5e-b5ec-4623-96a8-85a1422ba7b0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cmder.exe - Shortcut.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProjectsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Project.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Project.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/project/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/project/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/project/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/project/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +115,9 @@
       <path value="$PROJECT_DIR$/vendor/league/flysystem" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
     </include_path>
   </component>
   <component name="ProjectId" id="1OmVfCcijhE6Q6AucwIH2c6Wsb8" />
@@ -158,7 +166,8 @@
       <workItem from="1564840717456" duration="2679000" />
       <workItem from="1564877194391" duration="1207000" />
       <workItem from="1564973938429" duration="4584000" />
-      <workItem from="1565005176843" duration="3922000" />
+      <workItem from="1565005176843" duration="4014000" />
+      <workItem from="1565107225509" duration="6185000" />
     </task>
     <servers />
   </component>

@@ -9,6 +9,20 @@
         </a>
     </h1>
 
-    <h2>{{ $project->project_name }}</h2>
+    <h2>Name = {{ $project->project_name }}</h2>
+
+    @if($project->tasks()->count())
+        <h2>Project Task:</h2>
+            <div>
+                @foreach($project->tasks as $task)
+                    <form method="POST" action="{{route('tasks.update', $task->id)}}">
+                        @method('PATCH')
+                        @csrf
+                        <input type="checkbox" name="completed" onchange="this.form.submit()" {{$task->completed? 'checked': ''}}>
+                        {{$task->description}}
+                    </form>
+                @endforeach
+            </div>
+    @endif
 
 @endsection()

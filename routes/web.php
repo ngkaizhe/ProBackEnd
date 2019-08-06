@@ -31,6 +31,8 @@ Route::resource('projects', 'ProjectsController');
 //Route::delete('/projects/{project}', 'ProjectsController@destroy')->name('projects.destroy')->where('project', '\d');
 //Route::get('/projects/{project}/edit', 'ProjectsController@edit')->name('projects.edit')->where('project', '\d');
 
+//task
+Route::patch('/tasks/{task}', 'ProjectTasksController@update')->name('tasks.update');
 
 
 //post

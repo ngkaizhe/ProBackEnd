@@ -40,6 +40,7 @@ class ProjectsController extends Controller
     {
         $validated_request = $request->validate([
             'project_name'=> 'required',
+            'description' => 'nullable',
         ]);
 
         $project->update($validated_request);
