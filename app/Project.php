@@ -12,6 +12,14 @@ class Project extends Model
         return $this->hasMany(Task::class);
     }
 
+    // new function
+    public function addTask($task)
+    {
+        $this->tasks()->create($task);
+
+        return;
+    }
+
     //
     protected $table = 'projects';
 

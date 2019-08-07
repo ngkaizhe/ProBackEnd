@@ -33,6 +33,7 @@ Route::resource('projects', 'ProjectsController');
 
 //task
 Route::patch('/tasks/{task}', 'ProjectTasksController@update')->name('tasks.update');
+Route::patch('/projects/{project}/task', 'ProjectTasksController@store')->name('tasks.store');
 
 
 //post

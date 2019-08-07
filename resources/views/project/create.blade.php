@@ -14,6 +14,7 @@
         <button type="submit">create</button>
     </form>
 
+    @include('project.error')
 @endsection()
 
-@section('error')
+

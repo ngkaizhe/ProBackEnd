@@ -22,6 +22,8 @@
 
         <button type="submit">Delete</button><br>
     </form>
+
+    @include('project.error')
 @endsection()
 
-@section('error')
+

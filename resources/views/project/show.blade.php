@@ -25,4 +25,14 @@
             </div>
     @endif
 
+    <form method="POST" action="{{route('tasks.store', $project->id)}}">
+        @method('PATCH')
+        @csrf
+        <h2>New Task</h2>
+        <input type="text" name="description">
+        <button type="submit">Add Task</button>
+    </form>
+
 @endsection()
+
+@include('project.error')
